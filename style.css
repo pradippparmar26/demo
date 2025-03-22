@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+}
+
+ul{
+    background-color: rgb(36, 37, 36);
+    /* height: 40px; */
+    color: azure;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+    /* background-color: rgb(0, 110, 59); */
+}
+
+a{
+    color: azure;
+    text-decoration: none;
+    font-family: "Geist Mono", monospace;
+}
+
+h3{
+    padding-left: 10px;
+}
+
+h4{
+    padding-left: 10px;
+}
+
+h5{
+    padding-left: 10px;
+}
+
+p{
+    width: 825px;
+    text-align: justify;
+    padding-left: 10px;
+    font-family: "Sour Gummy", serif;
+}
+
+h1{
+    padding-left: 10px;
+    font-family: "Geist Mono", serif;
+}
+
+#active{
+    height: 20  px;
+    background-color: #04AA6D;
+}
+
+a:active{
+    color: yellow;
+}
+
+li:hover{
+    background-color: black;
+}
+
+.dropbtn{
+    background-color: rgb(36, 37, 36);
+    color: azure;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content a:active{
+    color: yellow;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: black;
+}
+
+#drop-li{
+    padding: 0;
+    font-family: "Geist Mono", sans-serif;
+}
+
+button{
+    font-size: 16px;
+    font-family: "Geist Mono", sans-serif;
+}
+
+#apply{
+    margin-left: 10px;
+    background-color: rgb(36, 37, 36);
+}
+
+@media (max-width: 480px) {
+    body{
+        background-color: gray;
+        margin: auto;
+    }
+
+    /* p{
+        font-size: 10px;
+    } */
+
+    h1{
+        width: 400px;
+        text-align: justify;
+    }
+
+    p{
+        width: 390px;
+    }
+
+    li{
+        text-align: center;
+    }
+
+    ul{
+        background-color: rgb(36, 37, 36);
+        /* height: 40px; */
+        color: azure;
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 420px;
+    }
+
+    iframe{
+        position: relative;
+        left: 5px;
+        bottom: 5px;
+        width: 400px;
+        height: 275px;
+    }
+
+    .dropbtn{
+        background-color: rgb(36, 37, 36);
+        color: azure;
+        padding: 10px;
+        cursor: pointer;
+        border: none;
+    }
+    
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content a:active{
+        color: yellow;
+    }
+    
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        top: 41px;
+        right: -30px;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: inline-flex;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+    
+    .dropdown:hover .dropdown-content{
+        display: inline;
+    }
+    
+    .dropdown:hover .dropbtn{
+        background-color: black;
+    }
+    
+    #drop-li{
+        padding: 0;
+        font-family: "Geist Mono", sans-serif;
+    }
+    
+    button{
+        font-size: 16px;
+        font-family: "Geist Mono", sans-serif;
+    }
+    
+    #apply{
+        margin-left: 10px;
+        background-color: rgb(36, 37, 36);
+    }
+
+}
